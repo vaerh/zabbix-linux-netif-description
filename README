@@ -1,0 +1,9 @@
+This directory contains the module, which extends functionality of the old Zabbix
+Agent and adds interface descriptions to the LLD output.
+
+Run 'make' to build it. It should produce discovery.so.
+
+Don't forget to set up variables:
+
+LoadModulePath=/usr/share/...
+LoadModule=discovery.so
